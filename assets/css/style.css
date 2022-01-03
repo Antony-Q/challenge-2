@@ -5,15 +5,16 @@
   }
   
   body {
-    color: #8f8f8f;
+    color: #7e722d;
     font-family: Helvetica, Arial, sans-serif;
   }
   
   /* HEADER STYLES START */
   
   header {
+    font-family: 'Georgia';
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: #585747;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -23,12 +24,12 @@
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: #fce138;
+    color: #ffffff;
   }
   
   header a {
     text-decoration: none;
-    color: #fce138;
+    color: #ffffff;
   }
   
   header nav {
