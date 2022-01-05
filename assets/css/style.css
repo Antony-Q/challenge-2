@@ -159,6 +159,19 @@
     line-height: 1.3;
   }
 
+  .portfolio ul li a{
+  display: flex;
+  flex-wrap: wrap;
+  border-style: 1mm solid black;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0 30px;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 1.3;
+  }
+
   .resume {
     background-color: rgb(121, 83, 101);
     background-size: 95%;
