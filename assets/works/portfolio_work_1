@@ -1,3 +1,22 @@
-<DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
-    
+        <head>
+            <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link rel="stylesheet" href="./assets/css/style.css">
+            <title>Portfolio Item 1</title>
+            <style>
+                header {
+                margin: 20px;
+                text-align:center;
+                font-size: 150vw;
+                font-style: bolder;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                This would be my first portfolio item!
+            </header>
+        </body>
+    </html>
+</DOCTYPE>
