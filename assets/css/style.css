@@ -47,7 +47,7 @@
   header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 14px;
   }
 
   h2 {
@@ -99,14 +99,17 @@
   .about-me {
     background-color: rgb(121, 83, 101);
     background-size: 95%;
-    margin: 2%;
+    border: 6mm ridge rgba(54, 12, 71, 0.6);
+    margin: 1%;
     display: flex;
     flex: wrap;
+    flex-direction: column;
     justify-content: center;
   }
 
   .about-me h2 {
     position: top;
+    justify-content: center;
   }
 
   .about-me p {
@@ -121,9 +124,11 @@
   .work {
     background-color: rgb(121, 83, 101);
     background-size: 95%;
-    margin: 2%;
+    border: 6mm ridge rgba(54, 12, 71, 0.6);
+    margin: 1%;
     display: flex;
     flex: wrap;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -143,9 +148,11 @@
   .resume {
     background-color: rgb(121, 83, 101);
     background-size: 95%;
-    margin: 2%;
+    border: 6mm ridge rgba(54, 12, 71, 0.6);
+    margin: 1%;
     display: flex;
     flex: wrap;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -165,9 +172,11 @@
   .contact-me {
     background-color: rgb(121, 83, 101);
     background-size: 95%;
-    margin: 2%;
+    border: 6mm ridge rgba(54, 12, 71, 0.6);
+    margin: 1%;
     display: flex;
     flex: wrap;
+    flex-direction: column;
     justify-content: center;
   }
 
