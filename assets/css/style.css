@@ -52,8 +52,19 @@
 
   h2 {
     font-style: italic bold;
+    color: #fce138;
+    position: center;
   }
   
+  p {
+  width: 75%;
+  text-align: left;
+  margin: 1%;
+  color: white;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
   /* HEADER / NAVBAR STYLES END */
 
   /* HERO STYLES START */
@@ -95,19 +106,84 @@
   }
 
   .about-me h2 {
-    font-size: 2vw;
-    color: #fce138;
-    position: center;
+    position: top;
   }
 
   .about-me p {
     width: 75%;
     text-align: left;
-    margin: 3.5%;
+    margin: 1%;
     color: white;
     font-size: 18px;
     line-height: 1.3;
   }
+
+  .work {
+    background-color: rgb(121, 83, 101);
+    background-size: 95%;
+    margin: 2%;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+  }
+
+  .work h2 {
+    position: top;
+  }
+
+  .work p {
+    width: 75%;
+    text-align: left;
+    margin: 1%;
+    color: white;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .resume {
+    background-color: rgb(121, 83, 101);
+    background-size: 95%;
+    margin: 2%;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+  }
+
+  .resume h2 {
+    position: top;
+  }
+
+  .resume p {
+    width: 75%;
+    text-align: left;
+    margin: 1%;
+    color: white;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .contact-me {
+    background-color: rgb(121, 83, 101);
+    background-size: 95%;
+    margin: 2%;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+  }
+
+  .contact-me h2 {
+    position: top;
+  }
+
+  .contact-me p {
+    width: 75%;
+    text-align: left;
+    margin: 1%;
+    color: white;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
 
   /* MEDIA QUERIES */
   @media screen and (min-width: 750px) {
