@@ -214,10 +214,16 @@
   }
 
   .contact-me p {
-    width: 90%;
+    flex: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: inherit;
+    padding: inherit;
     text-align: left;
-    margin: 3%;
-    color: white;
+    margin: 1%;
+    color: black;
+    border-style: inset;
+    border-width: 1mm;
     font-size: 18px;
     line-height: 1.3;
   }
